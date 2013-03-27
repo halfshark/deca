@@ -15,8 +15,8 @@ font-size:100%;
 -ms-text-size-adjust:100%;
 }
 
-/* General Type Face for pages
------------------------------------------------------------*/
+/*General Type Face for pages
+----------------------------------------- - - - - -  -------------*/
 html,button,input,select,textarea {
 font-family: Courier, Palatino, Georgia, serif;
 /*font-family: Helvetica Neue, Helvetica, Arial, sans-serif;*/
@@ -357,13 +357,26 @@ margin:0 0 10px;
 }
 
 
-/*Site Header style
-------------------------------------------------------*/
+/*
+---------------------------------------------------------------------------------------------------------------------
+xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx
+xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx
+xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx
+
+Site Header style!
+
+xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx
+xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx
+xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx   xxxxxxxxx
+---------------------------------------------------------------------------------------------------------------------
+*/
+
 #header h1 a {
 text-decoration:none;
 color:#000;
-font-family: Josefin Slab, sans-serif;
-font-weight: 300;
+font-family: 'Raleway', sans-serif;
+text-rendering: optimizeLegibility;
+font-weight: 100;
 text-transform:uppercase;
 /*font-family:OutageRegular, sans-serif;*/
 /*font-weight:400;*/
@@ -375,7 +388,9 @@ line-height:1;
 #header #tagline {
 font-size:20px;
 /*font-family:Menlo, Monaco, "Lucida Console", Monospace;*/
-font-family: Josefin Slab, sans-serif;
+font-family: 'Raleway', sans-serif;
+font-weight: 200;
+text-rendering: optimizeLegibility;
 color:#888;
 margin-left:0;
 margin-bottom: 10px;
@@ -716,8 +731,10 @@ font-size:13px;
 /*Font for title of new Profile or Person
 --------------------------------------------------------*/
 #content .type-text h1 a,.permalink #content .type-audio .post .listen .song-info h1 {
-font-family: Josefin Slab;
-font-weight: 600;
+font-family: 'Raleway', sans-serif;
+text-rendering: optimizeLegibility;  
+text-transform: uppercase;	
+font-weight: 400;
 font-size:26px;
 }
 
@@ -732,8 +749,9 @@ font-size: 28px;
 -moz-column-count:1;
 -webkit-column-count:1;
 column-count:1;
-font-family: Josefin Slab;
-font-weight: 400;
+font-family: 'Raleway', sans-serif;
+text-rendering: optimizeLegibility;
+font-weight: 200;
 font-size:17px;
 line-height:24px;
 border-bottom: 1px solid #333;
